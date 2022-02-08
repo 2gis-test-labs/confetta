@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from pyfakefs.fake_filesystem import FakeFilesystem
 
@@ -41,4 +42,6 @@ def test_git_folder_other(fs: FakeFilesystem):
 
     fs.create_dir("/home/user/another_project/.git/")
 
-    assert git_folder_name("/home/user/another_project/") == "another_project"
+    path = "/home/user/another_project"
+    assert git_folder_name(path) == "another_project"
+    assert git_folder_name(Path(path)) == "another_project"

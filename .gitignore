@@ -1,6 +1,9 @@
 .venv/
 .idea/
+.mypy_cache/
 .pytest_cache/
 build/
 *.egg-info/
 dist/
+.coverage
+coverage.xml
