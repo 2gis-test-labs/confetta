@@ -1,9 +1,15 @@
-# conf-utils
+# confetta
+
+## Installation
+
+```shell
+$ pip3 install confetta
+```
 
 ## Usage
 
 ```python
-from conf_utils import git_folder_name, docker_port
+from confetta import git_folder_name, docker_port
 
 config = {
     "project_name": git_folder_name(),

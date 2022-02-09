@@ -1,4 +1,4 @@
-PROJECT_NAME=conf_utils
+PROJECT_NAME=confetta
 
 .PHONY: install
 install:

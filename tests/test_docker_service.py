@@ -2,7 +2,7 @@ from unittest.mock import Mock, call
 
 import pytest
 
-from conf_utils._docker_service import DockerService
+from confetta._docker_service import DockerService
 
 
 @pytest.fixture()

@@ -12,7 +12,7 @@ def find_dev_required():
 
 
 setup(
-    name="conf-utils",
+    name="confetta",
     version="0.1.0",
     description="",
     long_description=open("README.md").read(),
@@ -20,10 +20,10 @@ setup(
     author="2GIS Test Labs",
     author_email="test-labs@2gis.ru",
     python_requires=">=3.7",
-    url="https://github.com/2gis-test-labs/conf-utils",
+    url="https://github.com/2gis-test-labs/confetta",
     license="Apache-2.0",
     packages=find_packages(exclude=("tests",)),
-    package_data={"conf_utils": ["py.typed"]},
+    package_data={"confetta": ["py.typed"]},
     install_requires=find_required(),
     tests_require=find_dev_required(),
     classifiers=[

@@ -3,7 +3,7 @@ from pathlib import Path
 
 from pyfakefs.fake_filesystem import FakeFilesystem
 
-from conf_utils import git_folder_name
+from confetta import git_folder_name
 
 
 def test_no_git_folder(fs: FakeFilesystem):
