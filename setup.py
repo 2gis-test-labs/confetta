@@ -17,6 +17,8 @@ setup(
     description="",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
+    author="2GIS Test Labs",
+    author_email="test-labs@2gis.ru",
     python_requires=">=3.7",
     url="https://github.com/2gis-test-labs/conf-utils",
     license="Apache-2.0",
